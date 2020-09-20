@@ -1,0 +1,17 @@
+span.twtooltip {
+    visibility: hidden;
+    display: None;
+    position:relative;
+    background-color: #031A3E;
+    border-color: white;
+    border-width: 0.125em;
+    border-style: solid;
+    margin: 0.5em auto;
+    color: white;
+}
+a:hover span.twtooltip {
+    visibility: visible;
+    z-index: 999;
+    display:inline-block;
+    position: relative;
+}
